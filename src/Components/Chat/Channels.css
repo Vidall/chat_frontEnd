@@ -1,0 +1,50 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  margin-bottom: 50px;
+}
+
+.menu .name {
+  margin-top: 25px;
+}
+
+.menu .name .react-gravatar {
+  margin-left: 15px;
+}
+
+.menu-icon {
+  font-size: 35px;
+  margin: 15px 5px;
+
+}
+
+
+.channels {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 20px;
+}
+
+.channels li {
+  width: 80%;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  list-style-type: none;
+  border-bottom: 0.4px solid #fff;
+}
+
+.tools {
+  position: absolute;
+  bottom: 0;
+}
+
+.tollsChildren {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools-icon {
+  font-size: 35px;
+  margin: 10px 10px 25px 15px;
+}

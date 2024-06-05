@@ -1,0 +1,28 @@
+.chat {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: minmax(150px, 250px) 1fr;
+  grid-template-rows: 90px 1fr;
+  grid-template-areas:
+  "channels header"
+  "channels messageScreen"
+  ;
+
+}
+
+.channels {
+  grid-area: channels;
+  background-color: #111b21;
+  border-right: 0.2px solid #fafafa;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: #202C33
+}
+
+.messageScreen {
+  grid-area: messageScreen;
+  background-color: #ffffff;
+}

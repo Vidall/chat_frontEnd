@@ -1,0 +1,32 @@
+.inputMessage {
+  display: flex;
+  padding: 5px;
+  background-color: #cecece;
+}
+
+
+.inputMessage  input {
+  height: 100%;
+  width: 90vw;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0px 4px 10px;
+  font-size: 18px;
+}
+
+
+.inputMessage button {
+  height: 100%;
+  width: 10vw;
+  border: none;
+  background-color: #cecece;
+}
+
+
+.icon-send {
+ font-size: 1.5em;
+}
+
+
+
+
