@@ -1,10 +1,13 @@
+import { port } from "../config/port"
+
+
 export const verifyLogin = () => {
   const userName = sessionStorage.getItem('userName')
-  if (!userName) window.location.href = 'http://localhost:80/login'
+  if (!userName) window.location.href = `http://localhost:${port}/login`
 }
 
 export const login = (userName) => {
-    window.location.assign('http://localhost:80/chat')
+    window.location.assign(`http://localhost:${port}/chat`)
     sessionStorage.setItem('userName', userName)
 }
 

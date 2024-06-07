@@ -6,7 +6,7 @@ import { login } from '../../useCases/login';
 
 function Login() {
     const [userName, setUserName] = useState("");
-    const [password, setPassword] = useState("");
+    // const [password, setPassword] = useState("");
 
 
     const handleSubmit = (event) => {
@@ -55,19 +55,21 @@ function Login() {
                 <FaUser className='icon'/>
             </div>
 
+            {/* Password Field - resources */}
             {/* <div className='input-field'>
                 <input type="password" placeholder='Senha'
                 onChange={handleChangePassword}
                 value={password}/>
                 <FaLock className='icon'/>
             </div> */}
-            <div className="recall-forget">
+
+            {/* <div className="recall-forget">
 
                 <label>
                     <input type="checkbox" id='lembrar'/>Lembre de mim
                 </label>
                 <a href="#">Esqueceu a senha?</a>
-            </div>
+            </div> */}
 
             <div className='buttons'>
                 <button className='button-cancel'
@@ -76,12 +78,13 @@ function Login() {
                 <button className='button-login' onClick={handleClick} type='submit'>Login</button>
             </div>
 
-            <div className="signup-link">
+            {/* Create account - resources */}
+            {/* <div className="signup-link">
                 <p>
                     Não tem uma conta?
                     <a href="#">Registrar</a>
                 </p>
-            </div>
+            </div> */}
         </form>
     </div>
     </div>
