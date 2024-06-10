@@ -21,8 +21,6 @@ Este projeto foi desenvolvido para visualizar a interação entre serviços WebS
 
 ## Visão Geral
 
-Descreva brevemente o que o projeto faz, suas funcionalidades principais e, se aplicável, links para uma demo ao vivo.
-
 Este Projeto é uma vizualização de interface para sistemas que utilizam os serviços de WebSocket, esse em específico faz a interação de trocas de mansagens simulando uma conversa em tempo real.
 
 As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem.
@@ -58,26 +56,23 @@ npm run dev
 
 ## Scripts Disponíveis
 
-Pastas e utilitários
-📁 casos de usos -> src/useCases
-📁 Componente do Login -> src/Component/Login
-📁 Componentes do Chat -> src/Component/Chat
+Pastas e utilitários<br>
+📁 casos de usos -> src/useCases<br>
+📁 Componente do Login -> src/Component/Login<br>
+📁 Componentes do Chat -> src/Component/Chat<br>
 
 
 ## Estrutura principal do projeto
 $ tree
 .
 ├── src
-│   ├── assets
-│   ├── Components
-│   │   ├── Chat
-│   │   │   ├── Channels.jsx
-│   │   │   ├── Chat.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── Inputmessage.jsx
-│   │   │   └── MessageScreen.jsx
-│   │   │
-│   │   └── Login
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           ├── App.java
+│   │   │           └── Utils.java
+│   │   └── resources
 │   │       └── application.properties
 │   └── test
 │       ├── java
@@ -89,6 +84,7 @@ $ tree
 ├── build
 ├── .gitignore
 └── README.md
+
 
 
 
