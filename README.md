@@ -20,16 +20,19 @@ Este projeto foi desenvolvido para visualizar a interação entre serviços WebS
 
 ## Visão Geral
 
-Este Projeto é uma vizualização de interface para sistemas que utilizam os serviços de WebSocket, esse em específico faz a interação de trocas de mansagens simulando uma conversa em tempo real.
+Este Projeto é uma vizualização de interface para sistemas que utilizam os serviços de WebSocket, esse em específico faz a interação de trocas de mensagens simulando uma conversa em tempo real.
 
-As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem.
+As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e renderizar na tela a resposta da mensagem para todos usuários vizualizarem.
 
-> Tela de Login para acessar o site com o nickname em http://localhost/login
+> Tela de Login para acessar o chat com o nickname em http://localhost/login
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/login.png" alt="Exemplo imagem">
+<br>
+<br>
 
 > Interface onde acontecerão as trocas de mensagens dos usuários em http://localhost/chat
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/conversas.png" alt="Exemplo imagem">
-
+<br>
+<br>
 > ❓ Possibilidade de conversar em código morse ❓
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/morse.png" alt="Exemplo imagem">
 
