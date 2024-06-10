@@ -25,11 +25,29 @@ Descreva brevemente o que o projeto faz, suas funcionalidades principais e, se a
 
 Este Projeto é uma vizualização de interface para sistemas que utilizam os serviços de WebSocket, esse em específico faz a interação de trocas de mansagens simulando uma conversa em tempo real.
 
-As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem
+As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem.
+
+Tela de Login
+<img src="/frontend/public/images/login.png" alt="Exemplo imagem">
 
 ## Instalação
 
-para iniciar
+## 🚀 Instalando
+
+Para instalar, siga essa etapa:
+
+```
+npm install
+```
+
+## ⚙️ Rodando
+Para rodar, siga essa etapa:
+
+```
+npm run dev
+```
+
+
 
 ```bash
 # Clone o repositório
