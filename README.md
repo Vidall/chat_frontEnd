@@ -27,7 +27,7 @@ Este Projeto é uma vizualização de interface para sistemas que utilizam os se
 
 As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem.
 
-Tela de Login
+> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/login.png" alt="Exemplo imagem">
 
 ## Instalação
