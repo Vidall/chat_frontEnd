@@ -30,7 +30,7 @@ As principais funcionalidades são de realizar a criação do escopo da mensagem
 > Tela de Login para acessar o site com o nickname em http://localhost/login
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/login.png" alt="Exemplo imagem">
 
-> Interface onde acontecerão as trocas de mensagens dos usuários
+> Interface onde acontecerão as trocas de mensagens dos usuários em http://localhost/chat
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/conversas.png" alt="Exemplo imagem">
 
 > ❓ Possibilidade de conversar em código morse ❓
@@ -63,43 +63,30 @@ Pastas e utilitários
 📁 Componente do Login -> src/Component/Login
 📁 Componentes do Chat -> src/Component/Chat
 
-Estrutura e explicação
 
-├── src/
-│ ├── Component/
-│ │  ├── Chat/
-│ │  │  ├── Channels.jsx
-│ │  │  ├── Chat.jsx
-│ │  │  ├── Header.jsx
-│ │  │  ├── InputMessage.jsx
-│ │  │  └── MessageScreen.jsx
-│ │  └──Login
-│ ├── config
-│ │  └── port.js
-│ ├── Routes
-│ │  └── Routes.jsx
-│ ├── useCases
-
-
-
-
-├── src/
-│ ├── Component/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── example/
-│ │ │ │ │ ├── App.java
-│ │ │ │ │ └── Utils.java
-│ │ └── resources/
-│ │ └── application.properties
-├── test/
-│ ├── java/
-│ │ ├── com/
-│ │ │ ├── example/
-│ │ │ │ └── AppTest.java
-│ └── resources/
-│ └── test.properties
-├── build/
+## Estrutura principal do projeto
+$ tree
+.
+├── src
+│   ├── assets
+│   ├── Components
+│   │   ├── Chat
+│   │   │   ├── Channels.jsx
+│   │   │   ├── Chat.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Inputmessage.jsx
+│   │   │   └── MessageScreen.jsx
+│   │   │
+│   │   └── Login
+│   │       └── application.properties
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           └── AppTest.java
+│       └── resources
+│           └── test.properties
+├── build
 ├── .gitignore
 └── README.md
 
