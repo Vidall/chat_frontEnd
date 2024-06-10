@@ -15,9 +15,8 @@ Este projeto foi desenvolvido para visualizar a interação entre serviços WebS
 2. [Instalação](#instalação)
 3. [Uso](#uso)
 4. [Scripts Disponíveis](#scripts-disponíveis)
-5. [Estrutura do Projeto](#estrutura-do-projeto)
-6. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-7. [Contribuição](#contribuição)
+5. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+6. [Contribuição](#contribuição)
 
 ## Visão Geral
 
@@ -62,29 +61,12 @@ Pastas e utilitários<br>
 📁 Componentes do Chat -> src/Component/Chat<br>
 
 
-## Estrutura principal do projeto
-$ tree
-.
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           ├── App.java
-│   │   │           └── Utils.java
-│   │   └── resources
-│   │       └── application.properties
-│   └── test
-│       ├── java
-│       │   └── com
-│       │       └── example
-│       │           └── AppTest.java
-│       └── resources
-│           └── test.properties
-├── build
-├── .gitignore
-└── README.md
+## Tecnologias Utilizadas
 
+<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/morse.png" alt="Exemplo imagem">
 
+## Contribuição
+Esse projeto foi construindo em conjunto com https://github.com/Trafl<br>
+O back-end que roda com esse front-end está disponível em https://github.com/Trafl/ChatAppServer_WebSocket<br>
 
 
