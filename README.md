@@ -63,7 +63,7 @@ Pastas e utilitários<br>
 
 ## Tecnologias Utilizadas
 
-<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/morse.png" alt="Exemplo imagem">
+<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/viteReact.png" alt="Exemplo imagem">
 
 ## Contribuição
 Esse projeto foi construindo em conjunto com https://github.com/Trafl<br>
