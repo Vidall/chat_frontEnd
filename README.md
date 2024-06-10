@@ -67,7 +67,7 @@ Pastas e utilitários<br>
 ## Tecnologias Utilizadas
 Vite + React <br>
 
-<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/viteReact.png" alt="Exemplo imagem" width="100" height="100">
+<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/viteReact.png" alt="Exemplo imagem" width="200" height="200">
 
 ## Contribuição
 Esse projeto foi construindo em conjunto com https://github.com/Trafl<br>
