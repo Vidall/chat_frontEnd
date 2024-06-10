@@ -62,6 +62,7 @@ Pastas e utilitários<br>
 
 
 ## Tecnologias Utilizadas
+Vite + React <br>
 
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/viteReact.png" alt="Exemplo imagem">
 
