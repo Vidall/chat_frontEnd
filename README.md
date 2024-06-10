@@ -27,12 +27,18 @@ Este Projeto é uma vizualização de interface para sistemas que utilizam os se
 
 As principais funcionalidades são de realizar a criação do escopo da mensagem, enviar a mensagem para o canal definido no back-end e redenrizar na tela a resposta da mensagem para todos usuários vizualizarem.
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Tela de Login para acessar o site com o nickname em http://localhost/login
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/login.png" alt="Exemplo imagem">
+
+> Interface onde acontecerão as trocas de mensagens dos usuários
+<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/conversas.png" alt="Exemplo imagem">
+
+> ❓ Possibilidade de conversar em código morse ❓
+<img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/morse.png" alt="Exemplo imagem">
 
 ## Instalação
 
-## 🚀 Instalando
+### 🚀 Instalando
 
 Para instalar, siga essa etapa:
 
@@ -40,21 +46,62 @@ Para instalar, siga essa etapa:
 npm install
 ```
 
-## ⚙️ Rodando
+
+## uso
+
+### ⚙️ Rodando
 Para rodar, siga essa etapa:
 
 ```
 npm run dev
 ```
 
+## Scripts Disponíveis
+
+Pastas e utilitários
+📁 casos de usos -> src/useCases
+📁 Componente do Login -> src/Component/Login
+📁 Componentes do Chat -> src/Component/Chat
+
+Estrutura e explicação
+
+├── src/
+│ ├── Component/
+│ │  ├── Chat/
+│ │  │  ├── Channels.jsx
+│ │  │  ├── Chat.jsx
+│ │  │  ├── Header.jsx
+│ │  │  ├── InputMessage.jsx
+│ │  │  └── MessageScreen.jsx
+│ │  └──Login
+│ ├── config
+│ │  └── port.js
+│ ├── Routes
+│ │  └── Routes.jsx
+│ ├── useCases
 
 
-```bash
-# Clone o repositório
-git clone https://github.com/usuario/nome-do-projeto.git
 
-# Navegue até o diretório do projeto
-cd nome-do-projeto
 
-# Instale as dependências
-npm install
+├── src/
+│ ├── Component/
+│ │ ├── java/
+│ │ │ ├── com/
+│ │ │ │ ├── example/
+│ │ │ │ │ ├── App.java
+│ │ │ │ │ └── Utils.java
+│ │ └── resources/
+│ │ └── application.properties
+├── test/
+│ ├── java/
+│ │ ├── com/
+│ │ │ ├── example/
+│ │ │ │ └── AppTest.java
+│ └── resources/
+│ └── test.properties
+├── build/
+├── .gitignore
+└── README.md
+
+
+
