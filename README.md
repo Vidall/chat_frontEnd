@@ -70,7 +70,7 @@ Vite + React <br>
 <img src="https://github.com/Vidall/chat_frontEnd/blob/main/public/images/viteReact.png" alt="Exemplo imagem" width="200" height="100">
 
 ## Contribuição
-Esse projeto foi construindo em conjunto com https://github.com/Trafl<br>
+Esse projeto foi construído em conjunto com https://github.com/Trafl<br>
 O back-end que roda com esse front-end está disponível em https://github.com/Trafl/ChatAppServer_WebSocket<br>
 
 
