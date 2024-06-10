@@ -1,11 +1,11 @@
 
 # Front-end para chats em tempo real (WebSocket)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Vidall/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Vidall/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Vidall/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Vidall/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Vidall/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Vidall/chat_frontEnd?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Vidall/chat_frontEnd?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Vidall/chat_frontEnd?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Vidall/chat_frontEnd?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Vidall/chat_frontEnd?style=for-the-badge)
 
 Este projeto foi desenvolvido para visualizar a interação entre serviços WebSocket
 
