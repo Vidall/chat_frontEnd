@@ -1,9 +1,9 @@
 .messageScreen {
   position: relative;
-  background-image: url('../../assets/fundoMessageScreen.webp');
-  background-size: cover;
+  background-image: url('../../assets/fundo-mod.png');
+  background-size: auto;
   background-position: center;
-  background-attachment: initial;
+  background-attachment: fixed;
 }
 
 .inputMessage {
